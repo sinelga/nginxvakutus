@@ -8782,3 +8782,98 @@ build.dart --machine --changed=web/dartapp.dart.js --changed=web/dartapp.dart.js
 Total time                                                   --  63 ms
 build.dart finished [482 ms]
 
+---
+build.dart --machine --full
+Total time spent on web/dartapp.html                         -- 1720 ms
+[{"method":"generated","params":{"file":"web/out/leftbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.css"}}]
+[{"method":"mapping","params":{"from":"web/dartapp.html","to":"web/out/dartapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html"}}]
+Total time                                                   -- 1846 ms
+build.dart finished [2274 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/dartapp.html                         -- 1743 ms
+[{"method":"generated","params":{"file":"web/out/leftbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.css"}}]
+[{"method":"mapping","params":{"from":"web/dartapp.html","to":"web/out/dartapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html"}}]
+Total time                                                   -- 1821 ms
+build.dart finished [2210 ms]
+
+---
+build.dart --machine --changed=web/dartapp.html
+Total time spent on web/dartapp.html                         -- 1174 ms
+[{"method":"generated","params":{"file":"web/out/centralbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.css"}}]
+[{"method":"mapping","params":{"from":"web/dartapp.html","to":"web/out/dartapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html"}}]
+Total time                                                   -- 1246 ms
+build.dart finished [1580 ms]
+
+---
+build.dart --machine --changed=web/dartapp.dart.js.map
+Total time                                                   -- 137 ms
+build.dart finished [1271 ms]
+
+---
+build.dart --machine --changed=web/precompiled.js
+Total time                                                   --  64 ms
+build.dart finished [394 ms]
+
+---
+build.dart --machine --changed=web/dartapp.dart.js --changed=web/dartapp.dart.js.deps --changed=web/precompiled...
+Total time                                                   --  65 ms
+build.dart finished [384 ms]
+
+---
+build.dart --machine --changed=deploy/centralbox.html --changed=deploy/dart.js --changed=deploy/dartapp.css --c...
+Total time spent on web/dartapp.html                         -- 1383 ms
+[{"method":"generated","params":{"file":"web/out/leftbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.css"}}]
+[{"method":"mapping","params":{"from":"web/dartapp.html","to":"web/out/dartapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html"}}]
+Total time                                                   -- 1466 ms
+build.dart finished [1878 ms]
+
+---
+build.dart --machine --changed=deploy/dartapp.dart --changed=deploy/dartapp.dart.js
+Total time spent on web/dartapp.html                         -- 1445 ms
+[{"method":"generated","params":{"file":"web/out/leftbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/leftbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart"}}]
+[{"method":"generated","params":{"file":"web/out/centralbox.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.css"}}]
+[{"method":"mapping","params":{"from":"web/dartapp.html","to":"web/out/dartapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/dartapp.html"}}]
+Total time                                                   -- 1523 ms
+build.dart finished [1959 ms]
+

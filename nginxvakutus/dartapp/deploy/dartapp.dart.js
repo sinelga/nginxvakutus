@@ -46507,7 +46507,7 @@ $asa:null,
 $isList:true,
 $isQV:true,
 $isXj:true,
-static:{"":"AYf<-",}},"+Uint8List": [67, 1971],"":"GKt<-"}],["dartapp.dart","file:///home/juno/junoworkspace/goherokuvakutus/src/static/dartapp/web/dartapp.dart",,B,{E24:function(){var z=P.A(null,S.wE)
+static:{"":"AYf<-",}},"+Uint8List": [67, 1971],"":"GKt<-"}],["dartapp.dart","file:///home/juno/git/nginxvakutus/nginxvakutus/dartapp/web/dartapp.dart",,B,{E24:function(){var z=P.A(null,S.wE)
 H.VM(z,[S.wE])
 $.U2=z
 J.oA(Z.Lt(null,"http://suomipornome2.appspot.com/start?callback=?",null),new B.em())
@@ -46538,7 +46538,7 @@ s.Ai(v,$.U2)
 "0,1538,1535"},
 "+call:1:0":1,
 $isEH:true,
-$asa:null},"+main_closure": [],"":"U2@-,cVE@-,qgX@-"},1],["domains","file:///home/juno/junoworkspace/goherokuvakutus/src/static/dartapp/web/domains.dart",,S,{er:{"":"a;MxI@-,QXm@-,XnQ@-,NKt@-,GLB@-",static:{AJG:function(){return new S.er(null,null,null,null,null)
+$asa:null},"+main_closure": [],"":"U2@-,cVE@-,qgX@-"},1],["domains","file:///home/juno/git/nginxvakutus/nginxvakutus/dartapp/web/domains.dart",,S,{er:{"":"a;MxI@-,QXm@-,XnQ@-,NKt@-,GLB@-",static:{AJG:function(){return new S.er(null,null,null,null,null)
 "1521"},"+new ForMark:0:0":1}},"+ForMark": [],wE:{"":"a;df@-,Kd@-,wK@-",$iswE:true,static:{eht:function(){return new S.wE(null,null,null)
 "1522"},"+new Navigation:0:0":1}},"+Navigation": []}],["html_common","dart:html_common",,P,{mR:function(a){var z,y,x,w,v
 if(a==null)return
