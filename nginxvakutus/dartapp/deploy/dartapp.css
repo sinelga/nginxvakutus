@@ -1,0 +1,82 @@
+body {
+ 
+  color: #888888;
+}
+
+a {
+font-family: 'Permanent Marker', cursive;
+text-shadow: 4px 4px 4px #aaa;
+color: #888888;
+font-size: 160%;
+text-decoration: none;
+}
+
+.nav {
+  font-size: 80%;
+  
+}  
+.muted {
+  font-family: 'Permanent Marker', cursive;
+  /*color: blue;*/
+  text-shadow: 4px 4px 4px #aaa;
+  width: 70%;
+  font-size: 160%;
+}
+
+.centralboxmenu  a {
+  
+  font-size: 140%;
+  
+  }
+
+
+
+/*.muted2 {*/
+/*  font-family: 'Permanent Marker', cursive;*/
+ 
+/*  text-shadow: 3px 3px 3px #aaa;
+  width: 100%;
+  font-size: 140%;
+}*/
+
+/*.muted2 a:link {
+  color:#888888 !important ;
+  
+  }
+*/
+
+
+.muted3 li a {
+  font-family: 'Permanent Marker', cursive;
+  /*color: blue;*/
+  text-shadow: 2px 2px 2px #aaa;
+  width: 100%;
+  font-size: 100%;
+}
+/*
+.scroll-view-left-menu {
+  width: 20%;
+  border-radius: 6px;
+  border: 5px solid #888888;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  
+}
+*/
+
+.scroll-view {
+  
+  border-radius: 6px;
+  border: 5px solid #888888;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  
+}
+
+.imgCont {
+  float:left;
+  padding: 5px;
+  border-radius: 6px;
+  border: 5px solid #888888;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  
+  }
+  

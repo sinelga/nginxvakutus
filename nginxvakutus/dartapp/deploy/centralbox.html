@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <body>   
+    
+    <element name="x-centralbox" constructor="CentralBoxComponent" >
+          
+      <template>
+        
+        <template instantiate="if firstSomeNews">
+          <template iterate='message in messages'>  
+        
+          <div>
+              <i class="icon-quote-left icon-4x icon-muted pull-left"></i>
+              <div class="well-large">
+            
+                <p class="muted">{{message.Description}}<p>
+              </div> 
+            <div class="scroll-view">
+                <img class="imgCont" src='{{message.ImageLink}}' />
+                {{message.Cont}}
+             </div> 
+            
+           
+          </div>
+          
+          </template>
+        </template>
+        
+        <template instantiate="if menu">
+          
+          <template iterate="forMark in forMarkList">
+            
+            
+            <ul class="nav nav-list"> 
+              <div class="centralboxmenu">      
+              <li><a on-click="openpopupcell(forMark)"><i class="icon-ok"></i>{{forMark.PubDate}} {{forMark.Title}}</a></li>
+             </div>                     
+            </ul>
+            
+          <!--  <li class="muted3"><a on-click="openpopupcell(forMark)"><i class="icon-ok"></i>{{forMark.PubDate}} {{forMark.Title}}</a></li>-->
+            
+          </template>  
+          
+        </template>  
+        
+        
+        <template instantiate="if popupcell">
+        
+          <button class="close pull-right" on-click="returnToNavigation()" ><h1>&times;</h1></button>
+               
+              <i class="icon-quote-left icon-4x icon-muted pull-left"></i>
+              <div class="well-large">
+            
+                <p class="muted">{{forMarkOne.Description}}<p>
+              </div> 
+            
+  
+              <div class="scroll-view">
+                <img class="imgCont" src='{{forMarkOne.ImageLink}}' />
+                {{forMarkOne.Cont}}
+              </div>     
+         
+        </template>  
+                     
+                
+        
+      <!--   <template instantiate="if completer.isCompleted"> -->
+     <!--    <template instantiate="if quantMessages !=null">-->
+       <!--    <div>{{quantMessages}} messages</div>-->
+          
+      <!--   </template>-->
+                 
+        
+      </template>
+        
+      
+      
+    <script type="application/dart" src="centralbox.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+    </element>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+name: dartapp
+description: A sample web application
+dependencies:
+  browser: any
+  intl: any
+ # jsonp_request: any
+  web_ui: any
+  jsonp: any
+
+#bootjack: any
+#rikulo_ui: any
+#animation: any
+#bee: any
+#event_bus: any

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+ 
+  <body> 
+  
+     <element name="x-leftbox" constructor="LeftBoxComponent" >
+           
+      <template>
+        
+        <template instantiate="if !menu">
+        <div>
+          <i class="icon-spinner icon-spin icon-3x"></i>         
+        </div>  
+      </template>
+        
+      <template instantiate="if menu">
+        <div class="scroll-view">
+        <template iterate='navigation in navigationList'>
+                  
+         <ul class="nav nav-list">            
+               <li><a on-click="selectSubThemes(navigation)"><i class="icon-ok"></i>{{navigation.SubThemes}}</a></li>             
+         </ul>
+           
+          <!-- <li class="muted2"><a on-click="selectSubThemes(navigation)">{{navigation.SubThemes}}</a></li>-->
+       <!--   <a class="muted2" on-click="selectSubThemes(navigation)">{{navigation.SubThemes}}</a></br> -->
+          
+          
+           
+        </template>
+        
+       </div> 
+      </template>
+ 
+     </template>  
+            
+    <script type="application/dart" src="leftbox.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+    </element>
+  </body>
+</html>

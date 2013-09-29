@@ -1,0 +1,44 @@
+/* Auto-generated from style sheet href = web/dartapp.css */
+/* DO NOT EDIT. */
+
+body {
+  color: #888;
+}
+a {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  color: #888;
+  font-size: 160%;
+  text-decoration: none;
+}
+.nav {
+  font-size: 80%;
+}
+.muted {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  width: 70%;
+  font-size: 160%;
+}
+.centralboxmenu a {
+  font-size: 140%;
+}
+.muted3 li a {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2px 2px 2px #aaa;
+  width: 100%;
+  font-size: 100%;
+}
+.scroll-view {
+  border-radius: 6px;
+  border: 5px solid #888;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+.imgCont {
+  float: left;
+  padding: 5px;
+  border-radius: 6px;
+  border: 5px solid #888;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
